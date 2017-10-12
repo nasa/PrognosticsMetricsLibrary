@@ -42,6 +42,14 @@ While the first argument is the aforementioned structure, the second argument is
 
 Coming soon
 
+## Alpha-Lambda Performance Plot
+
+In addition to computing the metrics, this software package can also plot the alpha-lambda performance [2] plot, using the command
+> plotAlphaLambda(prognosisData,alphaBeta(1),alphaBeta(2))
+
+Note that there are three arguments, and all three are mandatory. The first is the input structure, the second and the third are the alpha and beta values respectively [2].
+
+
 ## References
 
 1. M. Daigle, A. Saxena, and K. Goebel, “An efficient deterministic approach to model-based prediction uncertainty estimation,” in Annual Conference of the Prognosticsand Health Management Society, 2012, Minneapolis, MN, USA.
