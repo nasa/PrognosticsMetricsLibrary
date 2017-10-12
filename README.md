@@ -18,9 +18,13 @@ To calculate all the possible metrics provided within this software package, a M
 8.	prognosisData.cputime = (1 x t) EOL/RUL computation times (optional)
 
 
-If unscented transform sampling [1] is used for prediction, then the samples have so-called sigma-points associated with them. These sigma-points need to be specified as a two-dimensional vector; note that only two sigma points are used within this MATLAB software package. For example, “sigma=[0.5, 0.5]” is a valid assignment. This assignment can be ignored and omitted if unscented transform sampling is not used.
+If unscented transform sampling [1] is used for prediction, then the samples have so-called sigma-points associated with them. These sigma-points need to be specified as a two-dimensional vector; note that only two sigma points are used within this MATLAB software package. For example, 
+> sigma=[0.5, 0.5] 
+is a valid assignment. This assignment can be ignored and omitted if unscented transform sampling is not used.
 
-Also, the alpha and beta performance levels [2] need to be defined, within a two-dimensional vector. For example, “alphaBeta=[0.1, 0.5]” is a valid assignment. Both these numbers are between 0 and 1. The first argument is an allowed accuracy window; smaller the value, more stringent the requirement. The second argument is related to precision; larger the value, more stringent the requirement.
+Also, the alpha and beta performance levels [2] need to be defined, within a two-dimensional vector. For example, 
+> alphaBeta=[0.1, 0.5] 
+is a valid assignment. Both the above numbers need to be between 0 and 1. The first argument is an allowed accuracy window; smaller the value, more stringent the requirement. The second argument is related to precision; larger the value, more stringent the requirement.
  
 ## How to load and run the package contents?
 
