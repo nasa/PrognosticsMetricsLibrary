@@ -1,6 +1,6 @@
 # PrognosticsMetricsLibrary
 
-This library provides MATLAB software that calculates prognostics metrics. The package is titled “+PrognosticsMetrics”, and a standalone MATLAB file “Tester.m” illustrates how to use the package. 
+This library provides MATLAB software that calculates prognostics metrics. The package is titled “+PrognosticsMetrics”, and a standalone MATLAB file “Tester.m” illustrates how to use the package. This tester creates dummy-output of a prognostic algorithm and explains how the software can be used to compute the performance metrics.
 
 ## Inputs to the Package
 
