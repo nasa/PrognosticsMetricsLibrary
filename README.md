@@ -23,7 +23,7 @@ If unscented transform sampling [1] is used for prediction, then the samples hav
 
 is a valid assignment. This assignment can be ignored and omitted if unscented transform sampling is not used.
 
-Also, the alpha and beta performance levels [2] need to be defined, within a two-dimensional vector. For example, 
+Also, the alpha and beta performance requirement levels [2] need to be defined by the user, as a two-dimensional vector. For example, 
 > alphaBeta=[0.1, 0.5] 
 
 is a valid assignment. Both the above numbers need to be between 0 and 1. The first argument is an allowed accuracy window; smaller the value, more stringent the requirement. The second argument is related to precision; larger the value, more stringent the requirement.
