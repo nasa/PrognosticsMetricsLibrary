@@ -24,9 +24,11 @@ Also, the alpha and beta performance levels [2] need to be defined, within a two
  
 ## How to load and run the package contents?
 
-In MATLAB, a package is represented by using “+” before the name of the folder containing the package. To load the package use the command: “import PrognosticsMetrics.*”.
+In MATLAB, a package is represented by using “+” before the name of the folder containing the package. To load the package use the command: 
+> import PrognosticsMetrics.*
 
-This package contains one simple function that calculates all the prognostics metrics. This function can be called using the code: “computePrognosisMetrics(prognosisData,alphaBeta,sigma)”.
+This package contains one simple function that calculates all the prognostics metrics. This function can be called using the code: 
+> computePrognosisMetrics(prognosisData,alphaBeta,sigma)
 
 While the first argument is the aforementioned structure, the second argument is the 2-dimensional vector containing alpha and beta requirements. These two arguments are mandatory for the function. The third optional argument contains the 2-dimensional vector of sigma-points, and needs to be provided only if unscented transform sampling is used for prediction.
 
