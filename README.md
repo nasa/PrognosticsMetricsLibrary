@@ -5,7 +5,7 @@ This library provides MATLAB software that calculates prognostics metrics. The p
 ## Prognostic Metrics
 Prognostic algorithms are implemented in order to determine the Remaining Useful Life (RUL) of a system.  Prognostic Metrics are incorporated into the health management decision making process by analyzing the performance of these algorithms.  Establishing standard methods for performance assessment is beneficial in uniformly comparing certain aptitudes or measures across several algorithms.  Statistical evaluation methods are often advantageous when dealing with large datasets.
 
-Some sources of error that could be associated with a system include model inaccuracy, data noise, observer faults, etc. Additionlal considerations when determining which Prognostic Metrics to adopt are logistics, saftey, reliability, mission criticality, and economic viability (estimating cost savings expected from prognostic algorithm deployment).
+Some sources of error that could be associated with a system include model inaccuracy, data noise, observer faults, etc. Additional considerations when determining which Prognostic Metrics to adopt are logistics, saftey, reliability, mission criticality, and economic viability (estimating cost savings expected from prognostic algorithm deployment).
 
 ## Prognostic Framework Terminology
 * PDF = Probability Density Function
