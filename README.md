@@ -66,6 +66,7 @@ While the first argument is the aforementioned structure, the second argument is
 ## Description of Output Metrics
 
 **Convergence**
+The Convergence Metric determines the rate at which a Metric (ex: accuracy or precision) improves over time. As more information accumulates along with the system progression, it is assumed that algorithm performance also improves.  Convergence is calculated by finding the distance between the origin and centroid of area under the curve for a metric.
 
 ## Alpha-Lambda Performance Plot
 
