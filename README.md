@@ -3,7 +3,7 @@
 This library provides MATLAB software that calculates prognostics metrics. The package is titled “+PrognosticsMetrics”, and a standalone MATLAB file “Tester.m” illustrates how to use the package. This tester creates dummy-output of a prognostic algorithm and explains how the software can be used to compute the performance metrics.
 
 ## Prognostic Metrics
-Prognostic algorithms are implemented in order to determine the Remaining Useful Life (RUL) of a system.  Prognostic metrics are then utilized to analyze the performance of these algorithms.  Establishing standard methods for performance assessment is beneficial in uniformly comparing certain aptitudes or measures across several algorithms.  Statistical evaluation methods are often advantageous when dealing with large datasets.
+Prognostic algorithms are implemented in order to determine the Remaining Useful Life (RUL) of a system.  Prognostic metrics are incorporated into the health management decision making process by analyzing the performance of these algorithms.  Establishing standard methods for performance assessment is beneficial in uniformly comparing certain aptitudes or measures across several algorithms.  Statistical evaluation methods are often advantageous when dealing with large datasets.
 
 
 ## Inputs to the Package
