@@ -65,7 +65,7 @@ While the first argument is the aforementioned structure, the second argument is
 
 ## Description of Output Metrics
 
-Coming soon
+**Convergence**
 
 ## Alpha-Lambda Performance Plot
 
