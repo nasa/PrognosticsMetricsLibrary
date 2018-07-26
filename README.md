@@ -6,23 +6,23 @@ This library provides MATLAB software that calculates prognostics metrics. The p
 Prognostic algorithms are implemented in order to determine the Remaining Useful Life (RUL) of a system.  Prognostic metrics are incorporated into the health management decision making process by analyzing the performance of these algorithms.  Establishing standard methods for performance assessment is beneficial in uniformly comparing certain aptitudes or measures across several algorithms.  Statistical evaluation methods are often advantageous when dealing with large datasets.
 
 ## Prognostic Framework Terminology
-*PDF = Probability Density Function
-*UUT = Unit Under Test
-*PA = Prognostic Algorithm
-*PHM = Prognostic Health Management
-*RUL = Remaining Useful Life
-*EoL = End of Life
-*EoP = End of Prediction, time index of last prediction before EoL
-*EoUP = End of Useful Predictions, time index where RUL is no longer useful to update
-*HI = Health Index
-*PoF = Probability of Failure
-*FT = Failure Threshold, UUT is no longer usable
-*RtF = Run to Failure, allow system to fail
-*ROI = Return On Investment
-*F = time index when fault becomes detectable
-*D = time index when fault is detected
-*P = time index of first prognostic prediction
-*PH = Prognostic Horizon
+* PDF = Probability Density Function
+* UUT = Unit Under Test
+* PA = Prognostic Algorithm
+* PHM = Prognostic Health Management
+* RUL = Remaining Useful Life
+* EoL = End of Life
+* EoP = End of Prediction, time index of last prediction before EoL
+* EoUP = End of Useful Predictions, time index where RUL is no longer useful to update
+* HI = Health Index
+* PoF = Probability of Failure
+* FT = Failure Threshold, UUT is no longer usable
+* RtF = Run to Failure, allow system to fail
+* ROI = Return On Investment
+* F = time index when fault becomes detectable
+* D = time index when fault is detected
+* P = time index of first prognostic prediction
+* PH = Prognostic Horizon
 
 
 ## Inputs to the Package
