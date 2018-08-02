@@ -66,7 +66,7 @@ While the first argument is the aforementioned structure, the second argument is
 ## Description of Output Metrics
 
 **Alpha-Lambda Performance** <br />
-Alpha-Lambda Performance is a binary metric that outputs either 1 or 0. At a specific time index, lambda, it questions whether the prediction remains within a cone of accuracy (marked by alpha bounds).  If a desired condition is met, indicated by the probability mass being greater than Beta, minimal acceptable probability, at lambda time then the output is 1. Otherwise, the return is 0.
+Alpha-Lambda Performance is a binary metric that outputs either 1 or 0. At a specific time index, lambda, it questions whether the prediction remains within a cone of accuracy (marked by alpha bounds) as the system approaches EoL.  If a desired condition is met, indicated by the probability mass being greater than Beta, minimal acceptable probability, at lambda time then the output is 1. Otherwise, the return is 0.
 
 **Relative Accuracy** <br />
 Relative Accuracy is the measure of error in RUL prediction relative to the actual RUL. Prognostic algorithms with larger Relative Accuracies are more desirable.
