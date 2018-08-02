@@ -69,7 +69,7 @@ While the first argument is the aforementioned structure, the second argument is
 Alpha-Lambda Performance is a binary metric that outputs either 1 or 0. At a specific time index, lambda, it questions whether the prediction remains within a cone of accuracy (marked by alpha bounds) as the system approaches EoL.  If a desired condition is met, indicated by the probability mass being greater than Beta, minimal acceptable probability, at lambda time then the output is 1. Otherwise, the return is 0.
 
 **Relative Accuracy** <br />
-Relative Accuracy is the measure of error in RUL prediction relative to the actual RUL. Prognostic algorithms with larger Relative Accuracies are more desirable.
+Relative Accuracy is the measure of error in RUL prediction relative to the actual RUL. Because it indicates how accurately the algorithm is performing at a certain time, Prognostic algorithms with larger Relative Accuracies are more desirable.
 
 **Convergence** <br />
 The Convergence Metric determines the rate at which a Metric (ex: accuracy or precision) improves over time. As more information accumulates along with the system progression, it is assumed that algorithm performance also improves.  Convergence is calculated by finding the distance between the origin and centroid of area under the curve for a metric.
