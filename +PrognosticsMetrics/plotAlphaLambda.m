@@ -43,7 +43,10 @@ options = struct('boxFill',[.4 .5 .6],'coneFill',[.95 .95 .95],'width',1,...
 	'name','RUL');
 
 if nargin>3
-	options = copyStruct(options,opts);
+    % Merge opts into options
+    for field = fieldnames(opts)'
+        options.(field{1}) = opts.(field{1});
+    end
 end
 
 hold on;
